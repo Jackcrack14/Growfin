@@ -1,0 +1,25 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.navbar-button-container {
+  padding-right: 35px;
+}
+.header-headings {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 64px;
+}
+.logo-container {
+  width: 10%;
+  height: 10%;
+}
+
+.logo-container img {
+  width: 70%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes bottom space/gap */
+}

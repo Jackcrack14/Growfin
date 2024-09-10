@@ -1,0 +1,55 @@
+.header {
+  background: linear-gradient(188.11deg, #2563eb 6.12%, #1e3a8a 93.34%);
+  padding: 20px;
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Prevents overflow */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 70%; /* Makes the image responsive */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Removes bottom space/gap */
+}
+.header-button-container {
+  margin-top: 100px;
+}
+.demo-button {
+  background: #05ffff;
+  border: #05ffff;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 5px;
+  color: #000000;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+.request-button {
+  border: 2px solid #05ffff;
+  border-radius: 20px;
+  color: #05ffff;
+  background: linear-gradient(188.11deg, #2563eb 6.12%, #1e3a8a 93.34%);
+  margin-top: 10px;
+  margin-left: 5px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 140%;
+}
+
+.header-para-container {
+  width: 60%;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #ffffff;
+}
